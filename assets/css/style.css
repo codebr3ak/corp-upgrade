@@ -1392,14 +1392,52 @@ footer .wrapper .content ol li {
   margin-left: 10em;
   margin-right: 10em;
 }
-/* .bluep{
-  color: #3796DA;
-  margin-left: 10em;
-  margin-right: 10em;
-  font-size: 13px;
-  width: 80%;
-  height: 100%;
-} */
+.slider-detail {
+  background-image: url(../images/banner/bkg\ partern\ 4.jpg);
+  background-size: contain;
+  padding-top: 124px;
+  /* height: 1000px;  */
+}
+  @media screen and (max-width: 992px) {
+    .slider-detail {
+      padding-top: 52px; } }
+  @media screen and (max-width: 576px) {
+    .slider-detail {
+      padding-top: 72px; } }
+  .slider-detail .carousel-caption {
+    text-align: left;
+    bottom: 110px; }
+    @media screen and (max-width: 991px) {
+      .slider-detail .carousel-caption {
+        bottom: 10px; }
+        .slider-detail .carousel-caption h5 {
+          font-size: 28px; } }
+    @media screen and (max-width: 800px) {
+      .slider-detail .carousel-caption h5 {
+        font-size: 18px; } }
+    .slider-detail .carousel-caption h5 {
+      font-size: 44px;
+      margin-left: -40px;
+      font-family: "Glacial Indifference bold", "Open Sans", sans-serif; }
+    .slider-detail .carousel-caption p {
+      margin-left: -40px;
+      font-weight: 600;
+      margin-top: 40px;
+      font-size: 16px; }
+  .slider-detail .vbh {
+    margin-left: -40px; }
+    .slider-detail .vbh .btn {
+      padding: 20px;
+      margin-top: 40px;
+      font-weight: 600;
+      font-size: 18px; }
+  .slider-detail .vdg-cur {
+    color: #ffffff; }
+  .slider-detail .fvgb {
+    color: #ffffff; }
+.carousel-item .d-block img{
+  display: none;
+}
 .blueps{
   margin-top: 5%;
   color: #3796DA;
