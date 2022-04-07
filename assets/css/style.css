@@ -1490,15 +1490,15 @@ footer .wrapper .content ol li {
   height: 200px;
   margin-bottom: 3%;
 }
-.csquote{
+/* .csquote{
   
-}
+} */
 .move{
   margin-top: -16em;
   list-style-type: none;
   margin-left: 33%;
 }
-.guardss{
+/* .guardss{
   /* position: absolute; */
   /* list-style-type: none; */
   /* text-align: center; */
@@ -1507,14 +1507,14 @@ footer .wrapper .content ol li {
   /* margin-top: 10em; */
   /* height: 555px; */
   /* object-fit: cover; */
-}
-.fguard{
+/* } */ 
+/* .fguard{
   /* position: absolute; */
   /* left: 13em; */
   /* top: 68em; */
   /* height: 554px; */
   /* object-fit: cover; */
-}
+/* } */ 
 .bullets{
   list-style-type: none;
 }
