@@ -1490,9 +1490,26 @@ footer .wrapper .content ol li {
   height: 200px;
   margin-bottom: 3%;
 }
-/* .csquote{
-  
-} */
+#carouselExampleIndicators > div > div:nth-child(1){
+  /* display: none; */
+  height: auto;
+  width: fit-content;
+}
+#carouselExampleIndicators > div > div.carousel-item.active{
+  height: auto;
+  width: fit-content;
+}
+.block{
+  /* height: auto; */
+  margin-left: 400px;
+  width: fit-content;
+}
+#carouselExampleIndicators > div > div:nth-child(2) > div > div > div{
+  margin-left: 100px;
+}
+#carouselExampleIndicators > div > div:nth-child(1) > div > div > div{
+  margin-left: 100px;
+}
 .move{
   margin-top: -16em;
   list-style-type: none;
@@ -1534,6 +1551,13 @@ footer .wrapper .content ol li {
   .image{
     top: 5%;
     right: 10em;
+  }
+  .block{
+    margin-left: 4em;
+    margin-top: 30px;
+    height: 400px;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
   }
 }
 @media screen and (max-width: 850px) {
