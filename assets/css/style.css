@@ -1450,7 +1450,9 @@ footer .wrapper .content ol li {
       display: none;
       }
       .indiana{
+        overflow-x: hidden;
         height: fit-content;
+        /* display: none; */
       }
       #col1{
         /* display: none; */
@@ -1461,10 +1463,14 @@ footer .wrapper .content ol li {
       }
       .csquote{
         margin-top: -120px;
+        max-width: 100%;
+        margin-left: -0.1em;
+        /* display: none; */
       }
       .csquote img{
         height: 12cm;
         background-size: contain;
+        width: 100%;
       }
   }
   .slider-detail .carousel-caption {
