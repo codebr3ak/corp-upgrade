@@ -1260,11 +1260,12 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   height: 40vh;
 }
 .csquote{
+  /* display: none; */
   position: absolute;
   margin-top: -17em;
   list-style-type: none;
-  margin-left: 28%;
-  width: 100%;
+  margin-left: 30%;
+  width: 70%;
 }
 .bullets{
   width: 500px;
@@ -1454,6 +1455,11 @@ footer .wrapper .content ol li {
         height: fit-content;
         /* display: none; */
       }
+      .blog-content .whyte{
+        color: #fff;
+        margin-left: 112px;
+        text-align: center;
+      }
       #col1{
         /* display: none; */
         background: #3796DA;
@@ -1463,8 +1469,10 @@ footer .wrapper .content ol li {
       }
       .csquote{
         margin-top: -120px;
+        width: 100%;
         max-width: 100%;
         margin-left: -0.1em;
+        
         /* display: none; */
       }
       .csquote img{
