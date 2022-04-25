@@ -1259,6 +1259,26 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
 .indiana{
   height: 40vh;
 }
+.aboutt{
+  top: 10px;
+  background-image: url(../images/banner/bkg\ partern\ 4.jpg);
+  background-size: contain;
+  height: 450px;
+}
+.aboutt h2{
+  color: #3796DA;
+  position: absolute;
+  font-size: 55px;
+  left: 5em;
+  top: 2.5em;
+}
+.cammid img{
+  margin-left: 12em;
+  margin-top: -50px;
+  max-height: 30em;
+  max-width: 60em;
+}
+
 .csquote{
   /* display: none; */
   position: absolute;
@@ -1615,23 +1635,6 @@ margin-left: 123px;
   margin-left: 100px;
 }
 
-/* .guardss{
-  /* position: absolute; */
-  /* list-style-type: none; */
-  /* text-align: center; */
-  /* display: block; */
-  /* right: 44em; */
-  /* margin-top: 10em; */
-  /* height: 555px; */
-  /* object-fit: cover; */
-/* } */ 
-/* .fguard{
-  /* position: absolute; */
-  /* left: 13em; */
-  /* top: 68em; */
-  /* height: 554px; */
-  /* object-fit: cover; */
-/* } */ 
 .bullets{
   list-style-type: none;
 }
