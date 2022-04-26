@@ -435,7 +435,7 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
 }
 .bg-01 .wrapper .content p {
   font-size: 0.8125rem;
-  color: #666666;
+  /* color: #666666; */
   display: inline-block;
   line-height: 1.5625rem;
   margin: 0.3125rem 0;
@@ -444,16 +444,16 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   margin: 3px;
 }
 
-.bg-02::before {
+/* .bg-02::before {
   position: absolute;
   content: "";
   right: 0;
   width: 80%;
   height: 100%;
   top: 0;
-  background: #f5f4f0;
-  z-index: 1;
-}
+  /* background: #f5f4f0; */
+  /* z-index: 1;
+} */ 
 .bg-02 .image {
   position: relative;
   z-index: 2;
@@ -1263,7 +1263,12 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   top: 10px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
-  height: 450px;
+  height: 500px;
+}
+.iconsvision{
+  position: absolute;
+  top: 1px;
+  left: 52em;
 }
 .aboutt h2{
   color: #3796DA;
