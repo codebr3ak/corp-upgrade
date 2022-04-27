@@ -1326,20 +1326,16 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   max-height: 15cm;
 }
 .imagesb{
-  margin-top: -350px;
+  margin-top: -50px;
   width: max-content;
-  margin-left: -300px;
+  left: -200px;
 }
 .cameraft{
-  position: absolute;
   top: 50px;
-  height: 400px;
-  width: 100%;
-  margin-left: -700px;
-  /* display: none; */
+  max-width: fit-content;
+  left: 800px;
   }
 .banner2{
-  /* display: inline; */
   background-image: url("../images/banner/bkg\ partern\ 4.jpg");
   background-size: 600px 350px;
   height: 510px;
@@ -1347,7 +1343,6 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   padding-bottom: 590px;
   margin-left: 670px;
 }
-
 footer {
   padding: 3.125rem 0;
   background: #202040;
@@ -1498,11 +1493,52 @@ footer .wrapper .content ol li {
     .slider-detail {
       padding-top: 52px; }
     }
+  @media screen and (min-width: 1200px){
+    .par1{
+      position: absolute;
+      flex: left;
+    }
+    .service_b1{
+      margin-left: 10px;
+    }
+    .corep{
+      line-height: 32px; 
+      max-width: 10cm;
+      margin-top: 2em;
+      margin-left: 50px;
+    }
+    .coreb{
+      max-height: 15cm;
+    }
+    .imagesb{
+      margin-top: -350px;
+      width: max-content;
+      margin-left: -300px;
+    }
+    .cameraft{
+      position: absolute;
+      top: 50px;
+      height: 400px;
+      width: 100%;
+      margin-left: -700px;
+      /* display: none; */
+      }
+    .banner2{
+      /* display: inline; */
+      background-image: url("../images/banner/bkg\ partern\ 4.jpg");
+      background-size: 600px 350px;
+      height: 510px;
+      width: 1080px;
+      padding-bottom: 590px;
+      margin-left: 670px;
+    }
+  }
+
   @media screen and (min-width:992px) and (max-width:1199.98px){
     .imagesb{
       position: absolute;
-      margin-top: -170px;
-      margin-left: -60px;
+      margin-top: -200px;
+      margin-left: 530px;
       height: 100%;
       width: 100%;
     }
@@ -1511,7 +1547,7 @@ footer .wrapper .content ol li {
       top: 50px;
       height: 400px;
       width: 100%;
-      margin-left: -400px;
+      margin-left: -800px;
       }
       .par1{
         position: absolute;
