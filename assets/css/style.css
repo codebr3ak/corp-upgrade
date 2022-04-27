@@ -1314,13 +1314,16 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   flex: left;
 }
 .service_b1{
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .corep{
   line-height: 32px; 
   max-width: 10cm;
   margin-top: 2em;
   margin-left: 50px;
+}
+.coreb{
+  max-height: 15cm;
 }
 .imagesb{
   margin-top: -350px;
@@ -1493,7 +1496,49 @@ footer .wrapper .content ol li {
 }
   @media screen and (max-width: 992px) {
     .slider-detail {
-      padding-top: 52px; } }
+      padding-top: 52px; }
+    }
+  @media screen and (min-width:992px) and (max-width:1199.98px){
+    .imagesb{
+      position: absolute;
+      margin-top: -170px;
+      margin-left: -60px;
+      height: 100%;
+      width: 100%;
+    }
+    .cameraft{
+      position: absolute;
+      top: 50px;
+      height: 400px;
+      width: 100%;
+      margin-left: -400px;
+      }
+      .par1{
+        position: absolute;
+        margin-left: -2px;
+      }
+      .corep{
+        margin-left: 15px;
+        max-width: 9cm;
+      }
+      .button-7{
+        display: none;
+        margin-left: 10px;
+        margin-top: 300px;
+      }
+      .service_b1{
+        margin-left: 10px;
+      }
+    .banner2{
+      background-image: url("../images/banner/bkg\ partern\ 4.jpg");
+      background-size: 600px 350px;
+      height: 510px;
+      width: 700px;
+      padding-bottom: 590px;
+      margin-left: 400px;
+    }
+  }
+
   @media screen and (max-width: 576px) {
     .slider-detail {
       padding-top: 72px; }
