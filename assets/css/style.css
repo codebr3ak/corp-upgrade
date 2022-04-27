@@ -1308,11 +1308,44 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   margin-left: 623px;
   margin-top: -524px;
 }
+.par1{
+  position: absolute;
+  flex: left;
+}
+.service_b1{
+  margin-left: 30px;
+}
+.corep{
+  line-height: 32px; 
+  max-width: 10cm;
+  margin-top: 2em;
+  margin-left: 50px;
+}
+.imagesb{
+  position: relative;
+  left: 450px;
+  top: -900px;
+}
+.banner_org2{
+  background-image: url("../images/banner/bkg\ partern\ 4.jpg");
+  background-size: 600px 350px;
+  height: 510px;
+  width: 1080px;
+  padding-bottom: 590px;
+  margin-left: 670px;
+}
 .cameraft{
-  margin-top: -49px;
+  position: absolute;
+  top: 50px;
   height: 400px;
   width: 100%;
+  margin-left: -50px;
+  /* display: none; */
   }
+.banner2{
+  display: inline;
+}
+
 footer {
   padding: 3.125rem 0;
   background: #202040;
@@ -1577,7 +1610,12 @@ footer .wrapper .content ol li {
   white-space: nowrap;
   top: 170px;
   margin-left: 10px;
-  margin-top: 610px;
+  margin-top: 280px;
+}
+.button1{
+  top: 420px;
+  display: inline-block;
+  margin: 10px;
 }
 
 .blo-content-title li{
