@@ -1260,6 +1260,25 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
 .indiana{
   height: 40vh;
 }
+.images{
+  text-align: center;
+  margin: 0 auto;
+  list-style-type: none;
+  white-space: nowrap;
+  display: flex;
+}
+.images li{
+  display: inline;
+  width: 45%;
+  margin-top: -100px;
+  margin: 20px 5%;
+}
+
+.banner_org{
+  /* background-image: url(../images/banner/bkg\ partern\ 4.jpg); */
+  background-size: contain;
+  /* height: 500px; */
+}
 .aboutt{
   top: 10px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
@@ -1532,8 +1551,24 @@ footer .wrapper .content ol li {
       padding-bottom: 590px;
       margin-left: 670px;
     }
+    #col1{
+      /* display: none; */
+      margin-top: 150px;
+    }
+    .csquote{
+      /* display: none; */
+      margin-left: 450px;
+    }
+    .mguard{
+      /* display: none; */
+      margin-left: 400px;
+    }
+    .fguard{
+      /* display: none; */
+      margin-left: 150px;
+    }
   }
-
+/* laptop 1024 */
   @media screen and (min-width:992px) and (max-width:1199.98px){
     .imagesb{
       position: absolute;
@@ -1572,6 +1607,22 @@ footer .wrapper .content ol li {
       width: 700px;
       padding-bottom: 590px;
       margin-left: 400px;
+    }
+    #col1{
+      /* display: none; */
+      margin-top: 150px;
+    }
+    .csquote{
+      /* display: none; */
+      margin-left: 450px;
+    }
+    .mguard{
+      /* display: none; */
+      margin-left: 340px;
+    }
+    .fguard{
+      /* display: none; */
+      margin-left: 100px;
     }
   }
 
@@ -1744,10 +1795,43 @@ margin-left: 123px;
   max-width: 100%;
   height: 263px;
 }
-
+.intouch{
+  color: #3796DA;
+  font-size: 36px;
+  margin-left: 90px;
+}
+.div1{
+  float: right;
+  white-space: nowrap;
+}
+.div2{
+  white-space: nowrap;
+  float: left;
+}
+.div3{
+  float: right;
+  white-space: nowrap;
+}
+.book{
+  font-family: 'Open Sans';
+  margin-left: 29px;
+  padding-top: 23px;
+  text-align: center;
+  color: #fbfcfe;
+}
+.booking{
+  float: right;
+  background: #fbfcfe;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+.booking form{
+  margin-top: -400px;
+  margin-right: 400px;
+}
 .block{
   /* height: auto; */
-  margin-left: 400px;
+  margin-left: 300px;
   width: fit-content;
   width: 923px;
 }
