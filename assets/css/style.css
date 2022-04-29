@@ -1806,7 +1806,8 @@ margin-left: 123px;
 }
 .div2{
   float: left;
-  margin-left: -370px;
+  margin-left: -440px;
+  margin-top: -100px;
 }
 .div3{
   float: right;
