@@ -1260,6 +1260,7 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
 .indiana{
   height: 40vh;
 }
+
 .images{
   text-align: center;
   margin: 0 auto;
@@ -1303,7 +1304,6 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   max-height: 30em;
   max-width: 60em;
 }
-
 .csquote{
   /* display: none; */
   position: absolute;
@@ -1506,7 +1506,7 @@ footer .wrapper .content ol li {
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
   padding-top: 124px;
-  /* height: 1000px;  */
+  height: 80vh; 
 }
   @media screen and (max-width: 992px) {
     .slider-detail {
@@ -1801,16 +1801,17 @@ margin-left: 123px;
   margin-left: 90px;
 }
 .div1{
-  float: right;
-  white-space: nowrap;
+  float: left;
+  margin-left: 420px;
 }
 .div2{
-  white-space: nowrap;
   float: left;
+  margin-left: -370px;
 }
 .div3{
   float: right;
-  white-space: nowrap;
+  margin-top: -550px;
+  margin-right: 100px;
 }
 .book{
   font-family: 'Open Sans';
