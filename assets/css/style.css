@@ -1280,6 +1280,13 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   background-size: contain;
   /* height: 500px; */
 }
+.column2{
+  column-rule-width: 2px;
+  column-rule-color: #3796da;
+  -webkit-column-rule-style: dotted;
+  -moz-column-rule-style: dotted;
+  column-rule-style: dotted;
+}
 .aboutt{
   top: 10px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
@@ -1299,7 +1306,7 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   top: 2.5em;
 }
 .cammid img{
-  margin-left: 12em;
+  margin-left: 1em;
   margin-top: -50px;
   max-height: 30em;
   max-width: 60em;
@@ -1624,6 +1631,11 @@ footer .wrapper .content ol li {
       /* display: none; */
       margin-left: 100px;
     }
+    .div1{
+      float: left;
+      margin-left: 420px;
+    }
+    
   }
 
   @media screen and (max-width: 576px) {
@@ -1783,6 +1795,10 @@ margin-left: 123px;
   height: 223px;
   margin-left: 123px;
 }
+}
+.may4{
+  top: -550px;
+  margin-left: 220px;
 }
 .cameraf{
   margin-top: -53px;
