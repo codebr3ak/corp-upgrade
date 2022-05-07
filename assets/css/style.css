@@ -1275,17 +1275,19 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   margin: 20px 5%;
 }
 
-.banner_org{
-  /* background-image: url(../images/banner/bkg\ partern\ 4.jpg); */
-  background-size: contain;
-  /* height: 500px; */
-}
 .column2{
   column-rule-width: 2px;
   column-rule-color: #3796da;
   -webkit-column-rule-style: dotted;
   -moz-column-rule-style: dotted;
   column-rule-style: dotted;
+}
+.index-cov{
+  background-image: url(../images/banner/bkg\ partern\ 4.jpg);
+  background-size: contain;
+  top: 150px;
+  height: 500px;
+  color: white;
 }
 .aboutt{
   top: 10px;
@@ -1509,12 +1511,12 @@ footer .wrapper .content ol li {
   margin-left: 10em;
   margin-right: 10em;
 }
-.slider-detail {
+/* .slider-detail {
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
   padding-top: 124px;
   height: 80vh; 
-}
+} */
   @media screen and (max-width: 992px) {
     .slider-detail {
       padding-top: 52px; }
