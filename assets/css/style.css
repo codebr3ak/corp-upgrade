@@ -1915,5 +1915,101 @@ margin-left: 123px;
 
 }
 
+/* Index page new code */
 
-/*# sourceMappingURL=style.css.map */
+.navbar{
+  background-image: url(../images/banner/bkg\ partern\ 4.jpg);
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 300px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+.menu-icon{
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+nav{
+  flex: 1;
+}
+nav ul{
+  bottom: 130px;
+}
+.fb, .tw{
+  width: 40px;
+  float: right;
+  margin-right: 50px;
+}
+nav ul li{
+  font-size: 7vmin;
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #0095ff;
+  font-size: 18px;
+}
+nav li a:hover{
+    color: #ff5ea2;
+}
+#menuList{
+  position: absolute;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+.line{
+  width: 70px;
+  height: 4px;
+  background: #0095ff;
+}
+.yChoose .col2{
+  height: 350px;
+  background-image: url(../images/banner/bkg\ partern\ 4.jpg);
+  background-size: contain;
+  display: flex;
+}
+.yChoose .cam{
+  margin-left: -200px;
+}
+.yChoose .mission{
+  align-items: center;
+  margin-left: -300px;
+  
+}
+
+.btn{
+  padding: 8px 15px;
+  background: #0095ff;
+  color: #fff;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:768px){
+  nav ul{
+    width: 100%;
+    position: absolute;
+    /* background: linear-gradient(#ff54a2, #ff575a); */
+    top: 130px;
+    right: 0;
+    z-index: 2;
+  }
+  nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .menu-icon{
+    display: block;
+    top: 60px;
+    position: absolute;
+    margin-left: 220px;
+  }
+}
