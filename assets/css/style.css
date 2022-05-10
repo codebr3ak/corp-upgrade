@@ -2033,8 +2033,12 @@ nav li a:hover{
 }
 #menuList{
   position: absolute;
-  margin-left: 150px;
+  margin-left: 300px;
   justify-content: space-between;
+  top: 25px;
+}
+.smIcons{
+  display: block;
 }
 .line{
   width: 70px;
@@ -2052,8 +2056,10 @@ nav li a:hover{
 }
 .yChoose .mission{
   align-items: center;
-  margin-left: -300px;
-  
+  margin-left: -200px;
+}
+img.mission{
+  object-fit: cover;
 }
 .headsec .row{
   column-gap: 10px;
