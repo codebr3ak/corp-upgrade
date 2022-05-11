@@ -1371,12 +1371,7 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   padding-bottom: 590px;
   margin-left: 670px;
 }
-footer {
-  background-image: url("../images/banner/bkg\ partern\ 4.jpg");
-  background-size: contain;
-  position: relative;
-  color: #fff;
-}
+
 @media screen and (max-width: 767.98px) {
   footer {
     padding: 1.25rem 0;
@@ -1991,7 +1986,6 @@ margin-left: 123px;
 /* Index page new code */
 
 .navbar{
-  /* background-image: url(../images/banner/bkg\ partern\ 4.jpg); */
   background-size: contain;
   width: 100%;
   display: flex;
@@ -2010,9 +2004,7 @@ margin-left: 123px;
 nav{
   flex: 1;
 }
-nav ul{
-  bottom: 130px;
-}
+
 .fb, .tw{
   width: 40px;
   float: right;
@@ -2034,7 +2026,7 @@ nav li a:hover{
 }
 #menuList{
   position: absolute;
-  margin-left: 300px;
+  margin-left: 70px;
   justify-content: space-between;
   top: 25px;
 }
@@ -2092,13 +2084,18 @@ img.mission{
 }
 .flogo{
   height: 120px;
-  width: 180px;
+  width: 100%;
 }
 .fut{
   height: 120px;
   bottom: 0;
 }
-
+footer {
+  background-image: url("../images/banner/bkg\ partern\ 4.jpg");
+  background-size: contain;
+  position: relative;
+  color: #fff;
+}
 footer ul li{
   display: inline-block;
   text-align: center;
