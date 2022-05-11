@@ -1372,7 +1372,6 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   margin-left: 670px;
 }
 footer {
-  /* padding: 3.125rem 0; */
   background-image: url("../images/banner/bkg\ partern\ 4.jpg");
   background-size: contain;
   position: relative;
@@ -1505,6 +1504,7 @@ footer .wrapper .content ol li {
   font-size: 14px;
   text-align: justify;
   font-weight: bolder;
+  column-count: 2;
 }
 .parag2{
   margin-top: 30px;
@@ -2040,6 +2040,7 @@ nav li a:hover{
 }
 .smIcons{
   display: block;
+
 }
 .line{
   width: 70px;
@@ -2097,9 +2098,15 @@ img.mission{
   height: 120px;
   bottom: 0;
 }
-.futList{
-  display: inline-flex;
+
+footer ul li{
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 60px;
+  justify-content: space-between;
 }
+
 
 @media only screen and (max-width:768px){
   nav ul{
