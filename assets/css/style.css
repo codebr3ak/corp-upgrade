@@ -495,7 +495,6 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   position: relative;
   z-index: 2;
   margin: 1.25rem 0;
- 
 }
 .bg-02 .wrapper .icon {
   display: flex;
@@ -536,6 +535,7 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
 
 .bg-03 {
   background: #fafafa;
+  font-size: 12px;
 }
 .bg-03 .heading {
   display: block;
@@ -574,7 +574,6 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   margin: 1.25rem 0;
   position: relative;
   background: #fff;
-  border-top: 0.3125rem solid #3796DA;
   padding: 0.625rem 1.25rem 1.5625rem 1.25rem;
   box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.03), 0 1px 4px rgba(0, 0, 0, 0.04);
 }
@@ -583,7 +582,7 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   display: inline-block;
   width: 100%;
   margin: 0.3125rem 0;
-  text-align: center;
+  text-align: start;
 }
 .bg-03 .wrapper .content i {
   display: block;
@@ -1278,10 +1277,12 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
 .column2{
   column-rule-width: 2px;
   column-rule-color: #3796da;
+  border-right: 0.125rem solid #adbfcd;
   -webkit-column-rule-style: dotted;
   -moz-column-rule-style: dotted;
   column-rule-style: dotted;
 }
+
 .index-cov{
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
@@ -1293,7 +1294,15 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   top: 10px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
-  height: 500px;
+  height: 70%;
+}
+.aboutts{
+  top: 10px;
+  background-image: url(../images/banner/bkg\ partern\ 4.jpg);
+  background-size: contain;
+  height: 50%;
+  color: white;
+  display: inline-block;
 }
 .iconsvision{
   position: absolute;
@@ -1306,6 +1315,11 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   font-size: 55px;
   left: 5em;
   top: 2.5em;
+}
+.aboutt h4{
+  display: flex;
+  align-items: center;
+  margin-left: -150px;
 }
 .cammid img{
   margin-left: 1em;
@@ -1371,13 +1385,7 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   padding-bottom: 590px;
   margin-left: 670px;
 }
-footer {
-  /* padding: 3.125rem 0; */
-  background-image: url("../images/banner/bkg\ partern\ 4.jpg");
-  background-size: contain;
-  position: relative;
-  color: #fff;
-}
+
 @media screen and (max-width: 767.98px) {
   footer {
     padding: 1.25rem 0;
@@ -1505,6 +1513,7 @@ footer .wrapper .content ol li {
   font-size: 14px;
   text-align: justify;
   font-weight: bolder;
+  column-count: 2;
 }
 .parag2{
   margin-top: 30px;
@@ -1634,10 +1643,10 @@ footer .wrapper .content ol li {
       /* display: none; */
       margin-left: 100px;
     }
-    .div1{
+    /* .div1{
       float: left;
       margin-left: 420px;
-    }
+    } */
     
   }
 
@@ -1819,7 +1828,7 @@ margin-left: 123px;
   font-size: 36px;
   margin-left: 90px;
 }
-.div1{
+/* .div1{
   float: left;
   margin-left: 420px;
 }
@@ -1832,7 +1841,7 @@ margin-left: 123px;
   float: right;
   margin-top: -550px;
   margin-right: 100px;
-}
+} */
 .book{
   font-family: 'Open Sans';
   margin-left: 29px;
@@ -1991,7 +2000,6 @@ margin-left: 123px;
 /* Index page new code */
 
 .navbar{
-  /* background-image: url(../images/banner/bkg\ partern\ 4.jpg); */
   background-size: contain;
   width: 100%;
   display: flex;
@@ -2010,9 +2018,7 @@ margin-left: 123px;
 nav{
   flex: 1;
 }
-nav ul{
-  bottom: 130px;
-}
+
 .fb, .tw{
   width: 40px;
   float: right;
@@ -2034,12 +2040,13 @@ nav li a:hover{
 }
 #menuList{
   position: absolute;
-  margin-left: 300px;
+  margin-left: 70px;
   justify-content: space-between;
   top: 25px;
 }
 .smIcons{
   display: block;
+
 }
 .line{
   width: 70px;
@@ -2091,15 +2098,36 @@ img.mission{
 }
 .flogo{
   height: 120px;
-  width: 180px;
+  width: 100%;
 }
 .fut{
   height: 120px;
   bottom: 0;
 }
-.futList{
-  display: inline-flex;
+footer {
+  background-image: url("../images/banner/bkg\ partern\ 4.jpg");
+  background-size: contain;
+  position: relative;
+  color: #fff;
 }
+footer ul li{
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 60px;
+  justify-content: space-between;
+}
+.aboutt .pamoja{
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.aboutt img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
 
 @media only screen and (max-width:768px){
   nav ul{
