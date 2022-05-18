@@ -81,7 +81,6 @@ section {
     width: 100%;
   }
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -1302,7 +1301,8 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   background-size: contain;
   height: 50%;
   color: white;
-  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .iconsvision{
   position: absolute;
@@ -1321,11 +1321,10 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
   align-items: center;
   margin-left: -150px;
 }
-.cammid img{
-  margin-left: 1em;
-  margin-top: -50px;
-  max-height: 30em;
-  max-width: 60em;
+.cammid{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .csquote{
   /* display: none; */
@@ -1374,14 +1373,15 @@ main .slider #carouselExampleIndicators .carousel-indicators li::before {
 }
 .cameraft{
   top: 50px;
-  max-width: fit-content;
-  left: 800px;
+  left: 450px;
+  width: 80px;
+  margin-top: -51px;
   }
 .banner2{
   background-image: url("../images/banner/bkg\ partern\ 4.jpg");
   background-size: 600px 350px;
   height: 510px;
-  width: 1080px;
+  width: 380px;
   padding-bottom: 590px;
   margin-left: 670px;
 }
@@ -1555,10 +1555,10 @@ footer .wrapper .content ol li {
     }
     .cameraft{
       position: absolute;
-      top: 50px;
+      top: 100px;
       height: 400px;
-      width: 100%;
-      margin-left: -700px;
+      width: 60%;
+      margin-left: -265px;
       /* display: none; */
       }
     .banner2{
@@ -1809,8 +1809,9 @@ margin-left: 123px;
 }
 }
 .may4{
-  top: -550px;
-  margin-left: 220px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .cameraf{
   margin-top: -53px;
@@ -1819,9 +1820,17 @@ margin-left: 123px;
   top: 7%;
   }
 
-.fmale, .ymale {
-  max-width: 100%;
-  height: 263px;
+.male{
+  max-width: 250px;
+  height: 100%;
+}
+.fmale{
+  width: 200px;
+  height: 250px;
+}
+.ymale{
+  width: 263px;
+  height: 250px;
 }
 .intouch{
   color: #3796DA;
@@ -1931,7 +1940,10 @@ margin-left: 123px;
 	margin: 50px auto;
 	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
 	border-radius: 10px;
-	border: 6px solid #305A72;
+	border: 6px solid #ffffff;
+  height: 400px;
+  margin-bottom: -400px;
+  margin-top: 50px;
 }
 .form-style-9 ul{
 	padding:0;
@@ -2054,17 +2066,22 @@ nav li a:hover{
   background: #0095ff;
 }
 .yChoose .col2{
-  height: 350px;
+  height: 385px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
   display: flex;
+  margin-left: 90px;
+  width: 55%;
 }
 .yChoose .cam{
   margin-left: -200px;
 }
 .yChoose .mission{
   align-items: center;
-  margin-left: -200px;
+  margin-left: 40px;
+  width: 900px;
+  height: 800px;
+  margin-top: -200px;
 }
 img.mission{
   object-fit: cover;
@@ -2077,10 +2094,13 @@ img.mission{
   background: #0095ff;
   color: #fff;
   border-radius: 10px;
+  width: 100%;
 }
 .headsec{
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
-  background-size: contain;
+  background-size: contain;margin: 5px;
+  background-size: 600px;
+  height: 530px;
 }
 .headsec h2{
   color: #fff;
@@ -2088,13 +2108,15 @@ img.mission{
 .headsec ul li{
   color: #fff;
 }
-.headsec img{
+.headsec .smile img{
   width: 100%;
   height: 100%;
+  margin-top: 30px;
   object-fit: cover;
 }
 .headsec .drop{
   margin-top: 120px;
+  font-size: 20px;
 }
 .flogo{
   height: 120px;
