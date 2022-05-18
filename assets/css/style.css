@@ -80,7 +80,16 @@ section {
     max-width: 100%;
     width: 100%;
   }
-}
+/* }
+@media screen and (max-width: 1600px){
+  .cameraft img {
+    position: absolute;
+    top: 100px;
+    height: 400px;
+    width: 60%;
+    margin-left: -800px;
+    /* display: none; */
+  }} */
 html {
   scroll-behavior: smooth;
 }
