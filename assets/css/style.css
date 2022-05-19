@@ -2074,7 +2074,25 @@ nav li a:hover{
   height: 4px;
   background: #0095ff;
 }
-.yChoose .col2{
+.choose{
+  display: grid;
+  max-width: 900px;
+  margin: 0 auto;
+  grid-template-columns: 300px 600px;
+}
+.choose .gridd{
+  display: grid;
+  grid-template-columns: 200px 400px;
+}
+.gridd{
+  background-image: url(../images/banner/bkg\ partern\ 4.jpg);
+  background-size: contain;
+  margin-left: 40px;
+}
+body > section.choose.container > div.gridd > div:nth-child(2) > img{
+  /* display: none; */
+}
+/* .yChoose .col2{
   height: 385px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
@@ -2091,10 +2109,10 @@ nav li a:hover{
   width: 900px;
   height: 800px;
   margin-top: -200px;
-}
-img.mission{
+} */
+/* img.mission{
   object-fit: cover;
-}
+} */
 .headsec .row{
   column-gap: 10px;
 }
