@@ -2076,21 +2076,20 @@ nav li a:hover{
 }
 .choose{
   display: grid;
-  max-width: 900px;
-  margin: 0 auto;
-  grid-template-columns: 300px 600px;
+  grid-template-columns: 300px 800px;
 }
-.choose .gridd{
-  display: grid;
-  grid-template-columns: 200px 400px;
-}
-.gridd{
+body > section.choose.container > div.gridd{
+  margin-left: 20px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
   background-size: contain;
-  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 300px 500px;
 }
-body > section.choose.container > div.gridd > div:nth-child(2) > img{
-  /* display: none; */
+body > section.choose.container > div.gridd > img.mission{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-column: 2;
 }
 /* .yChoose .col2{
   height: 385px;

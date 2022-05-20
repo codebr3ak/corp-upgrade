@@ -14,23 +14,39 @@
 
         <body>
 
-            <div class="container">
-                <div class="navbar">
-                    <img src="assets/images/logo/csLOGOmain.png" class="logo">
-                    <nav>
-                        <ul id="menuList">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            
-                            <a href="https://www.facebook.com/"> <img src="assets/images/logo/104458_facebook_social media_fb_social_icon.png" class="fb"></a>
-                            <a href="https://www.twitter.com/"> <img src="assets/images/logo/2657545_media_social_twitter_website_icon.png" class="tw"></a>
-                        </ul>
-                        </div>    
-                    </nav>
-                    <img src="assets/images/logo/icons8-menu-48.png" class="menu-icon" onclick="togglemenu()">
+            <div class="navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <a href="navbar-brand">
+                        <span><img src="assets/images/logo/csLOGOmain.png" class="logo"></span> 
+                    </a>
+                    <!-- Toggle button for mobile nav -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <!-- Nav links -->
+                <div class="collapse navbar-collapse justify-content-center align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Our services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="nIcons">
+                        <a href="https://www.facebook.com/"> <img src="assets/images/logo/104458_facebook_social media_fb_social_icon.png" class="fb"></a>
+                        <a href="https://www.twitter.com/"> <img src="assets/images/logo/2657545_media_social_twitter_website_icon.png" class="tw"></a>
+                    </div>
                 </div>
+                </div>
+            </div>
 
                 <section class="headsec">
                     <div class="container">
@@ -84,7 +100,7 @@
                 <section class="choose container">
                         <div>
                             <h2>Why Choose <br> Corp-security </h2>
-                            <!-- <div class="line"></div> -->
+                            <div class="line"></div>
                             <p>
                                 Our core purpose is the protection of our clients and their assets. We do this through a risk based approach where threats are identified and disrupted,
                             vulenrabilities pin pointed and advise on protection measures subsequently bringing down the resultant risk level down to an acceptable threshold. We have our 
@@ -93,8 +109,8 @@
                             <a href="#" class="btn">Book Now</a>
                         </div>
                         <div class="gridd">
-                            <div><img src="./assets/images/abt-img/CS_cam.jpg" class="cameraft"></div>
-                            <div><img src="./assets/images/banner/CS_quote.png" class="mission"></div>
+                            <img src="./assets/images/abt-img/CS_cam.jpg" class="img-responsive cameraft">
+                            <img src="./assets/images/banner/CS_quote.png" class="img-responsive mission">
                         </div>
                 </section>
 
