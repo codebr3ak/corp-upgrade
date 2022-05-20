@@ -2078,6 +2078,14 @@ nav li a:hover{
   display: grid;
   grid-template-columns: 300px 800px;
 }
+.nIcons{
+  margin: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#main-nav > div > a:nth-child(1) > img{
+  margin: 0 0 0 0;
+}
 body > section.choose.container > div.gridd{
   margin-left: 20px;
   background-image: url(../images/banner/bkg\ partern\ 4.jpg);
